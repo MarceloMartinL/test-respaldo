@@ -1,0 +1,28 @@
+<h1>Upcoming Events:</h1>
+<% @upco_events.reverse_each do |event| %>
+	<ul>
+		<li>
+			<ol>
+				<li>Creator: <%= event.creator.name.capitalize %></li>
+				<li>Description: <%= event.description %></li>
+				<li>Date: <%= event.date %></li>
+				<li>Location: <%= event.location %></li>
+			</ol>
+		</li>
+	</ul>
+	<% end %>
+
+<h1>Previous Events:</h1>
+<% @prev_events.reverse_each do |event| %>
+	<ul>
+		<li>
+			<ol>
+				<li>Creator: <%= event.creator.name.capitalize %></li>
+				<li>Description: <%= event.description %></li>
+				<li>Date: <%= event.date %></li>
+				<li>Location: <%= event.location %></li>
+			</ol>
+		</li>
+	</ul>
+	<% end %>
+

@@ -1,0 +1,801 @@
+Started GET "/" for 127.0.0.1 at 2018-02-19 13:41:59 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/unfairness/.rvm/gems/ruby-2.3.3/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/unfairness/.rvm/gems/ruby-2.3.3/gems/railties-5.1.5/lib/rails/templates/rails/welcome/index.html.erb (10.0ms)
+Completed 200 OK in 110ms (Views: 12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 13:42:24 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (116.1ms)
+Completed 500 Internal Server Error in 122ms
+
+
+  
+ActionView::Template::Error (undefined method `text_fied_tax' for #<#<Class:0x000000042c0890>:0x000000042a4ca8>
+Did you mean?  text_field_tag
+               text_field
+               text_area
+               text_area_tag):
+    2: 
+    3: <%= form_tag(static_pages_path, method: "get") do %>
+    4: 	<%= label_tag(:user_id, "User ID") %>
+    5: 	<%= text_fied_tax(:user_id) %>
+    6: 
+    7: 	<%= submit_tag("Search") %>
+    8: <% end %>
+  
+app/views/static_pages/index.html.erb:5:in `block in _app_views_static_pages_index_html_erb___2488613312132693945_34999140'
+app/views/static_pages/index.html.erb:3:in `_app_views_static_pages_index_html_erb___2488613312132693945_34999140'
+Started GET "/" for 127.0.0.1 at 2018-02-19 13:42:35 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (87.7ms)
+Completed 500 Internal Server Error in 90ms
+
+
+  
+ActionView::Template::Error (undefined method `text_fied_tag' for #<#<Class:0x000000042c0890>:0x00000003d78298>
+Did you mean?  text_field_tag
+               text_field
+               text_area_tag
+               date_field_tag
+               text_area
+               time_field_tag):
+    2: 
+    3: <%= form_tag(static_pages_path, method: "get") do %>
+    4: 	<%= label_tag(:user_id, "User ID") %>
+    5: 	<%= text_fied_tag(:user_id) %>
+    6: 
+    7: 	<%= submit_tag("Search") %>
+    8: <% end %>
+  
+app/views/static_pages/index.html.erb:5:in `block in _app_views_static_pages_index_html_erb___2488613312132693945_32232420'
+app/views/static_pages/index.html.erb:3:in `_app_views_static_pages_index_html_erb___2488613312132693945_32232420'
+Started GET "/" for 127.0.0.1 at 2018-02-19 13:43:06 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 589ms (Views: 587.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 13:43:17 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 17.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 13:43:26 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:51:46 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 105ms
+
+
+  
+FlickRaw::FlickrAppNotConfigured (No API key defined!):
+  
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:51:56 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+FlickRaw::FlickrAppNotConfigured (No API key defined!):
+  
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:54:31 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 104ms
+
+
+  
+FlickRaw::FlickrAppNotConfigured (No API key defined!):
+  
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:54:34 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+FlickRaw::FlickrAppNotConfigured (No API key defined!):
+  
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:54:36 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+FlickRaw::FlickrAppNotConfigured (No API key defined!):
+  
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:54:54 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 121ms
+
+
+  
+FlickRaw::FlickrAppNotConfigured (No API key defined!):
+  
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:54:56 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+
+  
+FlickRaw::FlickrAppNotConfigured (No API key defined!):
+  
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:54:58 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+FlickRaw::FlickrAppNotConfigured (No API key defined!):
+  
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 14:57:47 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2090ms (Views: 161.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 15:16:01 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1273ms (Views: 42.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 15:16:20 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1028ms (Views: 15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 15:17:13 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1113ms (Views: 9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 15:18:01 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1178ms (Views: 14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 15:18:24 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1168ms (Views: 12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 15:29:04 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 856ms
+
+
+  
+FlickRaw::FailedResponse ('flickr.people.getPhotos' - Required arguments missing):
+  
+(eval):3:in `getPhotos'
+app/controllers/static_pages_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 15:30:39 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 11.2ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:30:49 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 997ms (Views: 17.9ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:31:13 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1070ms (Views: 9.3ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:32:20 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1180ms (Views: 15.9ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:33:05 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 970ms (Views: 13.9ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:39:48 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1001ms (Views: 16.6ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:40:02 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1118ms (Views: 20.8ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:41:13 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 951ms (Views: 22.0ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:41:52 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1228ms (Views: 11.4ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:42:48 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1150ms (Views: 13.6ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:43:06 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1103ms (Views: 27.1ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:43:26 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1216ms (Views: 20.9ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:43:41 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 859ms (Views: 11.6ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 15:43:58 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1076ms (Views: 15.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=asdasda&commit=Search" for 127.0.0.1 at 2018-02-19 15:50:37 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"asdasda", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1137ms (Views: 13.6ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=lolazo&commit=Search" for 127.0.0.1 at 2018-02-19 15:50:47 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"lolazo", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1145ms (Views: 9.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=lolazo&commit=Search" for 127.0.0.1 at 2018-02-19 15:53:59 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"lolazo", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1109ms (Views: 14.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=dsa2asd&commit=Search" for 127.0.0.1 at 2018-02-19 15:54:04 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"dsa2asd", "commit"=>"Search"}
+Completed 500 Internal Server Error in 1047ms
+
+
+  
+FlickRaw::FailedResponse ('flickr.people.getPhotos' - Unknown user):
+  
+(eval):3:in `getPhotos'
+app/controllers/static_pages_controller.rb:6:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=asdasdas&commit=Search" for 127.0.0.1 at 2018-02-19 15:54:42 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"asdasdas", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 909ms (Views: 19.8ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=&commit=Search" for 127.0.0.1 at 2018-02-19 15:54:45 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"", "commit"=>"Search"}
+Completed 500 Internal Server Error in 787ms
+
+
+  
+FlickRaw::FailedResponse ('flickr.people.getPhotos' - Required arguments missing):
+  
+(eval):3:in `getPhotos'
+app/controllers/static_pages_controller.rb:6:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=&commit=Search" for 127.0.0.1 at 2018-02-19 15:55:04 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"", "commit"=>"Search"}
+Completed 500 Internal Server Error in 885ms
+
+
+  
+FlickRaw::FailedResponse ('flickr.people.getPhotos' - Required arguments missing):
+  
+(eval):3:in `getPhotos'
+app/controllers/static_pages_controller.rb:6:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=&commit=Search" for 127.0.0.1 at 2018-02-19 15:55:06 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"", "commit"=>"Search"}
+Completed 500 Internal Server Error in 1043ms
+
+
+  
+FlickRaw::FailedResponse ('flickr.people.getPhotos' - Required arguments missing):
+  
+(eval):3:in `getPhotos'
+app/controllers/static_pages_controller.rb:6:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=123123&commit=Search" for 127.0.0.1 at 2018-02-19 15:56:45 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"123123", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1160ms (Views: 12.3ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=asdsa342&commit=Search" for 127.0.0.1 at 2018-02-19 15:56:52 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"asdsa342", "commit"=>"Search"}
+Completed 500 Internal Server Error in 1038ms
+
+
+  
+FlickRaw::FailedResponse ('flickr.people.getPhotos' - Unknown user):
+  
+(eval):3:in `getPhotos'
+app/controllers/static_pages_controller.rb:6:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=asdsa342&commit=Search" for 127.0.0.1 at 2018-02-19 15:59:17 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"asdsa342", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 1002ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8: <% end %>
+     9: 
+    10: <% if @user %>
+    11: 	<% @list.each do |photo| %>
+    12: 		<%= image_tag(FlickRaw.url_z(photo), :size => "400x250") %>
+    13: 	<% end %>
+    14: 	<h2><%= @error %></h2>
+  
+app/views/static_pages/index.html.erb:11:in `_app_views_static_pages_index_html_erb__430777812339309616_69983950260160'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=asdsa342&commit=Search" for 127.0.0.1 at 2018-02-19 16:02:19 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"asdsa342", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 946ms (Views: 15.4ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=asdasd&commit=Search" for 127.0.0.1 at 2018-02-19 16:02:27 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"asdasd", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1103ms (Views: 26.4ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 16:02:45 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 851ms (Views: 30.2ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=162906897%40N06&commit=Search" for 127.0.0.1 at 2018-02-19 16:07:02 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"162906897@N06", "commit"=>"Search"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:07:24 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"glatsies", "commit"=>"Search"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:08:13 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"glatsies", "commit"=>"Search"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:08:15 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"glatsies", "commit"=>"Search"}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:08:18 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"glatsies", "commit"=>"Search"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=asdasd&commit=Search" for 127.0.0.1 at 2018-02-19 16:09:44 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"asdasd", "commit"=>"Search"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:09:56 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"glatsies", "commit"=>"Search"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_id=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:10:06 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_id"=>"glatsies", "commit"=>"Search"}
+Completed 500 Internal Server Error in 1347ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 16:10:09 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 16:10:33 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 16:10:35 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 16:11:03 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 16:11:04 -0300
+Processing by StaticPagesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `delete' for nil:NilClass):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2018-02-19 16:11:12 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 200ms (Views: 199.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 16:13:04 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1911ms (Views: 13.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:13:21 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"glatsies", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1855ms (Views: 10.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:13:33 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2025ms (Views: 26.8ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:13:47 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"glatsies", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2138ms (Views: 11.9ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:14:12 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"glatsies", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1919ms (Views: 34.3ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=adasdsa&commit=Search" for 127.0.0.1 at 2018-02-19 16:14:41 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"adasdsa", "commit"=>"Search"}
+Completed 500 Internal Server Error in 1085ms
+
+
+  
+FlickRaw::FailedResponse ('flickr.people.findByUsername' - User not found):
+  
+(eval):3:in `findByUsername'
+app/controllers/static_pages_controller.rb:4:in `index'
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=adasdsa&commit=Search" for 127.0.0.1 at 2018-02-19 16:18:08 -0300
+  
+SyntaxError (/home/unfairness/workspace/photosait/app/controllers/static_pages_controller.rb:20: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/static_pages_controller.rb:20: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=adasdsa&commit=Search" for 127.0.0.1 at 2018-02-19 16:18:29 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"adasdsa", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1105ms (Views: 16.2ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:18:39 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"glatsies", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 848ms (Views: 15.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=&commit=Search" for 127.0.0.1 at 2018-02-19 16:18:42 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1062ms (Views: 13.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:18:49 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 777ms (Views: 11.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:19:17 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2167ms (Views: 16.2ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:19:27 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1849ms (Views: 19.0ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:19:37 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2063ms (Views: 16.5ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:19:44 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"glatsies", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2150ms (Views: 15.2ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=glatsies&commit=Search" for 127.0.0.1 at 2018-02-19 16:21:23 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"glatsies", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1654ms (Views: 14.6ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:21:29 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1997ms (Views: 9.7ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:21:35 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1910ms (Views: 11.4ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:21:52 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2086ms (Views: 15.0ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=123123&commit=Search" for 127.0.0.1 at 2018-02-19 16:21:58 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"123123", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1959ms (Views: 11.0ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=asdasd&commit=Search" for 127.0.0.1 at 2018-02-19 16:22:02 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"asdasd", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1769ms (Views: 17.1ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:23:27 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2037ms (Views: 9.6ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:24:21 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1867ms (Views: 17.4ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:24:33 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2003ms (Views: 14.8ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=dasdsa3232&commit=Search" for 127.0.0.1 at 2018-02-19 16:24:38 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"dasdsa3232", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1088ms (Views: 11.0ms)
+
+
+Started GET "/static_pages?utf8=%E2%9C%93&user_name=GlatsieS&commit=Search" for 127.0.0.1 at 2018-02-19 16:25:12 -0300
+Processing by StaticPagesController#index as HTML
+  Parameters: {"utf8"=>"✓", "user_name"=>"GlatsieS", "commit"=>"Search"}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1721ms (Views: 32.9ms)
+
+

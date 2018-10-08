@@ -1,0 +1,7 @@
+<h1>Event Creator: <%= @event.creator.name.capitalize %></h1>
+Attendees:<br><br>
+		<% @event.attendees.each do |attendee| %>
+			<ul>
+				<li><%= attendee.name.capitalize %></li>
+			</ul>
+		<% end %>

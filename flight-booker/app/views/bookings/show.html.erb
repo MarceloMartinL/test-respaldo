@@ -1,0 +1,42 @@
+<h3>Flight Details</h3>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Flight No.</th>
+				<th>From</th>
+				<th>To</th>
+				<th>Time</th>
+				<th>Duration</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><%= @flight.id %></td>
+				<td><%= @flight.from_airport.name %></td>
+				<td><%= @flight.to_airport.name %></td>
+				<td><%= @flight.date.strftime("%T") %></td>
+				<td><%= @flight.duration %></td>
+				<td><%= @flight.date.strftime("%F") %></td>
+			</tr>
+		</tbody>
+	</table><br>	
+
+	<h3>Passengers Details</h3>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @booking.passengers.each do |passenger| %>
+				<tr>
+					<td><%= passenger.name %></td>
+					<td><%= passenger.email %></td>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>	
+ 

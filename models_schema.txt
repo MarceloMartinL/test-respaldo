@@ -1,0 +1,97 @@
+1.-
+
+Courses:
+
+	- title: string [unique, 4-16 char, present]
+	- description: text [10-25 char, present]
+	- id: integer
+
+	has_many :lessons
+
+Lessons:
+
+	- title: string [unique, 4-16 char, present]
+	- body: text [10-1000 char, present]
+	- course_id: integer
+
+	belong_to course
+
+
+2.-
+
+User:
+
+	- name: string [unique, 4-16 char, present]
+	- email: string [unique, 4-16 char, present]
+
+	has_one: profile
+
+Profile:
+
+	- age: integer [between 0 and 120, present]
+	- gender: string [present]
+	- city: string [present]
+	- state: string [present]
+	- user_id: integer [present]
+
+	belong_to user
+
+
+3.-
+
+User:
+
+	- name: string [unique, 4-16 char, present]
+	- password: string [4-16 char, present]
+	- email: string [unique, 4-16 char, present]
+
+	has_many pins
+
+Pin:
+
+	- url: string [img, 4-20 char, present]
+	- comment: text [20-200 char]
+
+	belong_to user
+
+
+4.-
+
+User:
+
+	- name: string [unique, 4-16 char, present]
+	- password: string [4-16 char, present]
+	- email: string [unique, 4-16 char, present]
+
+	has_many posts
+	has_many comments
+
+Post:
+
+	- title: string [unique, 4-20 char, present]
+	- link: string [4-20 char, present]
+	- user_id: integer
+	- comment_id: integer
+
+	belong_to user
+	has_many comments
+
+Comment:
+
+	- text [20-200 char, present]
+	- user_id: integer
+	- post_id: integer
+	- minicomment_id: integer
+
+	belong_to user
+	belong_to post
+	has_many minicomments
+
+minicomment:
+
+	- user_id: integer
+	- comment_id: integer 
+	- body: text [present]
+
+	belong_to comment
+	belong_to user

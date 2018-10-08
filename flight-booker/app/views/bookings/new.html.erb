@@ -1,0 +1,42 @@
+<h1>Booking Creation</h1>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Flight No.</th>
+			<th>From</th>
+			<th>To</th>
+			<th>Time</th>
+			<th>Duration</th>
+			<th>Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><%= @flight.id %></td>
+			<td><%= @flight.from_airport.name %></td>
+			<td><%= @flight.to_airport.name %></td>
+			<td><%= @flight.date.strftime("%T") %></td>
+			<td><%= @flight.duration %></td>
+			<td><%= @flight.date.strftime("%F") %></td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<%= form_for(@booking) do |u| %>
+	<%= u.hidden_field(:flight_id, value: @flight.id) %>
+
+	<%= u.fields_for :passengers do |p| %><br>
+
+		<h2>Passenger <%= p.index + 1 %></h2>
+
+		<%= p.label :name %>
+		<%= p.text_field :name, class: 'form-control' %>
+
+		<%= p.label :email %>
+		<%= p.text_field :email, class: 'form-control' %>
+
+	<% end %>
+	<%= u.submit "Create Book", class: 'btn btn-primary mini' %>
+<% end %>
+
+

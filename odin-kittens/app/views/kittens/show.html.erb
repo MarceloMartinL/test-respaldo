@@ -1,0 +1,11 @@
+<h1><%= @kitten.name.capitalize %> Page</h1>
+
+<ul>
+	<li>Name: <%= @kitten.name %></li>
+	<li>Age: <%= @kitten.age %></li>
+	<li>cuteness: <%= @kitten.cuteness %></li>
+	<li>Softness: <%= @kitten.softness %></li><br>
+	<%= link_to "Delete", kitten_path(@kitten), method: :delete %>
+</ul>
+
+

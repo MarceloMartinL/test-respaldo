@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	<!--
+		<form accept-charset="UTF-8" action="/users" method="POST">
+			<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"/>
+			<label for="username">Enter your name</label><br>
+			<input type="text" name="user[username]"/><br><br>
+			<label for="email">Enter your email</label><br>
+			<input type="text" name="user[email]"/><br><br>
+			<label for="password">Enter your password</label><br>
+			<input type="password" name="user[password]"/><br><br>
+			<input type="submit" value="Accept"/>
+		</form>
+		
+
+		<%= form_tag("/users", method: "post") do %>
+			<%= label_tag(:username, "Enter your name") %><br>
+			<%= text_field_tag(:username) %><br><br>
+			<%= label_tag(:email, "Enter your email") %><br>
+			<%= text_field_tag(:email) %><br><br>
+			<%= label_tag(:password, "Enter your password") %><br>
+			<%= password_field_tag(:password) %><br><br>
+			<%= submit_tag("Accept") %>
+		<% end %>
+		-->
+
+		<%= form_for @user do |f| %>
+			<%= f.label :username, "Enter your name" %><br>
+			<%= f.text_field :username, value: "Default name" %><br><br>
+			<%= f.label :email, "Enter your email"%><br>
+			<%= f.text_field :email, placeholder: "example@example.com" %><br><br>
+			<%= f.label :password, "Enter your password" %><br>
+			<%= f.password_field :password  %><br><br>
+			<%= f.submit "Accept" %>
+		<% end %>
+
+	</body>
+</html>

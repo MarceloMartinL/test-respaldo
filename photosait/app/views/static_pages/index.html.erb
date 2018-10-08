@@ -1,0 +1,16 @@
+<h1>Search a Flickr User</h1>
+
+<%= form_tag(static_pages_path, method: "get") do %>
+	<%= label_tag(:user_name, "User Name") %>
+	<%= text_field_tag(:user_name) %><br><br>
+
+	<%= submit_tag("Search") %><br><br>
+<% end %>
+
+<% if @user_name && @error.nil? %>
+	<% @list.each do |photo| %>
+		<%= image_tag(FlickRaw.url_z(photo), :size => "400x250") %>
+	<% end %>
+<% else %>
+	<h2><%= @error %></h2>
+<% end %>

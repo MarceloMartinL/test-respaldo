@@ -1,0 +1,16 @@
+<div class="center">
+	<ul class="posts">
+		<%= link_to "Create a Post!", new_post_path, class: "btn btn-lg btn-primary" %>
+			<% @posts.reverse_each do |post| %>
+				<li>
+					<%= post.body %><br>
+					Author: 
+					<% if logged_in? %>
+						<%= post.user.name %>
+					<% else %>
+						You need be logged!
+					<% end %>
+				</li>
+			<% end %>
+	</ul>
+</div>

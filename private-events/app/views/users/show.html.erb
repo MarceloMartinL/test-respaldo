@@ -1,0 +1,29 @@
+<h1><%= @current_user.name.capitalize %></h1>
+<h2><%= link_to "Create Event", new_event_path, class: "btn btn-lg btn-primary" %></h2>
+
+<p>Upcoming Events:</p>
+<% @upco_events.reverse_each do |upco| %>
+	<ul>
+		<li>
+			<ul>
+				<li>Description: <%= upco.description %></li>
+				<li>Date: <%= upco.date %></li>
+				<li>Location: <%= upco.location %></li>
+			</ul>
+		</li>
+	</ul>
+<% end %>
+
+
+<p>Attended Events:</p>
+<% @prev_events.reverse_each do |prev| %>
+	<ul>
+		<li>
+			<ul>
+				<li>Description: <%= prev.description %></li>
+				<li>Date: <%= prev.date %></li>
+				<li>Location: <%= prev.location %></li>
+			</ul>
+		</li>
+	</ul>
+<% end %>
